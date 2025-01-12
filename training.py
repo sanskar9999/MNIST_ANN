@@ -149,3 +149,6 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+
+# Save the model
+model.save('mnist_model.h5')
